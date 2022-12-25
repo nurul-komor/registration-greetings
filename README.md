@@ -2,4 +2,4 @@
 
 ## overview
 
-<img src="">
+<img src="src/components/greetings-cover.png">
