@@ -1,0 +1,70 @@
+
+.greetingsContainer{
+    background-color: #4BCBFF;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.greetingsContainer::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10%;
+    left: -5%;
+    background-color: #457EFF;
+}
+.greetingsContainer::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: -21%;
+    right: -42px;
+    background-color: #457EFF;
+}
+.greetings{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 80%;
+    min-height: 350px;
+    background-color: #fff;
+    z-index: 4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.greetings::before{
+    content: "";
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -43px;
+    left: 60px;
+    background-color: #457EFF;
+    z-index: 10;
+}
+.greetings::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -23px;
+    right: 60px;
+    background-color: #457EFF;
+    z-index: 10;
+}
+.greetings h2 {
+    color: blue;
+    
+    font-weight: 700;
+}
