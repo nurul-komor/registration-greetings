@@ -7,15 +7,15 @@ export default function Registration(props) {
             <form onSubmit={props.submit}>
                 <div className="form-group">
                     <label htmlFor="name">Name:</label>
-                    <input placeholder='type your name here...' type="text" className="form-control" name='name' id='name' />
+                    <input placeholder='type your name here...' type="text" className="form-control" name='name' id='name' required />
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Email:</label>
-                    <input placeholder='type your email here...' type="email" className="form-control" name='email' id='email' />
+                    <input placeholder='type your email here...' type="email" className="form-control" name='email' id='email' required />
                 </div>
                 <div className="form-group">
                     <label htmlFor="password">Password:</label>
-                    <input placeholder='password here...' type="password" className="form-control" name='password' id='password' />
+                    <input placeholder='password here...' type="password" className="form-control" name='password' id='password' required />
                 </div>
                 <div className="form-group">
                     <button type="submit" className='btn btn-primary'>Submit</button>
